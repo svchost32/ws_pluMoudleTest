@@ -11,9 +11,10 @@ public class GeneratePlumeImp implements GeneratePlume{
 	public String GeneratePlume(double x, double y, String UnitAmount) {
 		// TODO Auto-generated method stub
 		String result = new String();
-		result = "Hello Business Logic : "+x*y+" . Developing...";
+		result = "http://70.106.253.97:8089/plume/test.png";
+		System.out.println(result);
 		
-		System.out.println("Access time: "+result+new Date().toString());
+//		System.out.println("F:\\Easy2PHP5\\Easy2PHP5\\WebSite\\plume"+result+" "+new Date().toString());
 		return result;
 	}
 
