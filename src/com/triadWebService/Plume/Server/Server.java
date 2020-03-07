@@ -18,7 +18,7 @@ public class Server {
 	public static void main(String[] args) {
 		JaxWsServerFactoryBean factoryBean = new JaxWsServerFactoryBean();
 		//地址
-		factoryBean.setAddress("http://0.0.0.0:8888/GeneratePlume");
+		factoryBean.setAddress("http://0.0.0.0:8900/GeneratePlume");
 		//接口
 		factoryBean.setServiceClass(GeneratePlume.class);
 		//实现对象
